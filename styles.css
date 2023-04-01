@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-pag {
+    background-image: url(./img/homem-jovem-fitness-em-estudio.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+ul  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 700;
+    
+}
+
+a {
+    text-decoration: none;
+    padding:  10px;
+    border-radius: 15px;
+    color: #fff;
+
+    
+}
+
+a:hover {
+    background-color: #fff; 
+    padding:  10px;
+    border-radius: 15px; 
+    color: black; 
+}
+
+
+.title-pag {
+    color: #fff;
+    width: 300px;
+    height: 300px;
+}
